@@ -1,0 +1,98 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8058610600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Invalid LogIn Scenario",
+        "description": "",
+        "id": "invalid-login-feature;invalid-login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 1517914100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 261601900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on printercloud page",
+            "match": {
+              "location": "InvalidLogInSteps.user_is_on_printercloud_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263669200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user input incorrect username",
+            "match": {
+              "location": "InvalidLogInSteps.user_input_incorrect_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 165642600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user input incorrect password",
+            "match": {
+              "location": "InvalidLogInSteps.user_input_incorrect_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 109304600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on the submit button",
+            "match": {
+              "location": "InvalidLogInSteps.user_clicks_on_the_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Invalid LogIn Feature",
+    "description": "",
+    "id": "invalid-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/orfat/IdeaProjects/PrinterlogicBDD/src/main/java/feature/InvalidLogIn.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@invalid"
+      }
+    ]
+  }
+]
